@@ -38,5 +38,29 @@
     </h4>
 
     <!-- Nhấn Ctrl + , để mở setting hoặc file -> preferences -> setting -->
+       <ol><h1>Khi A và B đều sửa cùng 1 chỗ, thì ở B phải:</h1>
+        <li>git add .</li>
+        <li>git commit -m "b sửa lần 1"</li>
+        </li>
+        <li>git pull origin main</li>
+        <li>Sau đó sẽ xuất hiện conflict giữa cái A và B đang sửa ở chỗ đó</li>
+        <li>Chọn giữ lại cái của A hoặc B hoặc cả hai:
+          <ol>
+            <li>accept current change: chấp nhận thay đổi mà máy B sửa</li>
+            <li>accept incoming change: chấp nhận cái A sửa</li>
+            <li>accept both changes: chấp nhận cả 2</li>
+          </ol>
+        </li>
+        <li>sau đó nhấn resolve in merger editor->complete change</li>
+        <li>xong nhấn commit để hoàn tất việc merge</li> </li>
+       </ol>
+
+       <h1>A có thể nhận được những thay đổi từ B khi B thêm bằng cách</h1>
+       <ol>
+        <li>Nhấn vào biểu tượng số 3</li>
+        <li>Chọn sync changes</li>
+
+        <!-- khi vào terminal mà bị lỗi > "nghĩa là terminal đang chờ" nhấn ctrl + C để thoát-->
+       </ol>
   </body>
 </html>
